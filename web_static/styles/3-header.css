@@ -3,8 +3,12 @@ header {
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
 }
-header img {
-    display: inline-block;
+header .logo {
+    width: 140px;
+    height: 60px;
     margin: auto auto auto 20px;
+    background: url('../images/logo.png');
 }
